@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Kings Valley 2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Kings Valley 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Kings Valley 2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="sfml-graphics" />
+					<Add library="sfml-window" />
+					<Add library="sfml-system" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/Animation.h" />
+		<Unit filename="include/Blocks.h" />
+		<Unit filename="include/Collider.h" />
+		<Unit filename="include/Door.h" />
+		<Unit filename="include/Enemy.h" />
+		<Unit filename="include/Game.h" />
+		<Unit filename="include/Map.h" />
+		<Unit filename="include/Objects.h" />
+		<Unit filename="include/Player.h" />
+		<Unit filename="include/Tool.h" />
+		<Unit filename="include/tinyxml2.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="resources/maps/mapa1.tmx" />
+		<Unit filename="resources/sprites/prueba.png" />
+		<Unit filename="src/Animation.cpp" />
+		<Unit filename="src/Blocks.cpp" />
+		<Unit filename="src/Collider.cpp" />
+		<Unit filename="src/Door.cpp" />
+		<Unit filename="src/Enemy.cpp" />
+		<Unit filename="src/Game.cpp" />
+		<Unit filename="src/Map.cpp" />
+		<Unit filename="src/Objects.cpp" />
+		<Unit filename="src/Player.cpp" />
+		<Unit filename="src/Tool.cpp" />
+		<Unit filename="src/tinyxml2.cpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
